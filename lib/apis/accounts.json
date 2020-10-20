@@ -48,5 +48,10 @@
         "method": "GET",
         "url": "/accounts/{{account_id}}/channels",
         "auth_required": true
+    },
+    "get_storage":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/storage",
+        "auth_required": true
     }
 }
