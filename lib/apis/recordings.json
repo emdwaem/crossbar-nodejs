@@ -4,12 +4,12 @@
         "url": "/accounts/{{account_id}}/recordings{{filters}}",
         "auth_required": true
     },
-    "get_recording_id": {
+    "get_recording": {
         "method": "GET",
         "url": "/accounts/{{account_id}}/recordings/{{recording_id}}",
         "auth_required": true
     },
-    "delete_recording_id": {
+    "delete_recording": {
         "method": "DELETE",
         "url": "/accounts/{{account_id}}/recordings/{{recording_id}}",
         "auth_required": true
