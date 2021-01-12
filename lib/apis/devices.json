@@ -19,6 +19,11 @@
         "url": "/accounts/{{account_id}}/devices/{{device_id}}",
         "auth_required": true
     },
+    "patch_device":{
+        "method": "PATCH",
+        "url": "/accounts/{{account_id}}/devices/{{device_id}}",
+        "auth_required": true
+    },
     "delete_device":{
         "method": "DELETE",
         "url": "/accounts/{{account_id}}/devices/{{device_id}}",
