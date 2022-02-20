@@ -1,0 +1,22 @@
+{
+    "get_pivot_callerid": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/pivot_callerid",
+        "auth_required": true
+    },
+    "create_pivot_callerid": {
+        "method": "PUT",
+        "url": "/accounts/{{account_id}}/pivot_callerid",
+        "auth_required": true
+    },
+    "get_pivot_callerid_item": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/pivot_callerid/{{pivot_callerid_id}}",
+        "auth_required": true
+    },
+    "delete_pivot_callerid": {
+        "method": "DELETE",
+        "url": "/accounts/{{account_id}}/pivot_callerid/{{pivot_callerid_id}}",
+        "auth_required": true
+    }
+}
