@@ -1,0 +1,32 @@
+{
+    "get_crm_auth": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/crm_auth",
+        "auth_required": true
+    },
+    "create_crm_auth": {
+        "method": "PUT",
+        "url": "/accounts/{{account_id}}/crm_auth",
+        "auth_required": true
+    },
+    "get_crm_auth_item": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/crm_auth/{{crm_auth_id}}",
+        "auth_required": true
+    },
+    "change_crm_auth_item": {
+        "method": "POST",
+        "url": "/accounts/{{account_id}}/crm_auth/{{crm_auth_id}}",
+        "auth_required": true
+    },
+    "patch_crm_auth":{
+        "method": "PATCH",
+        "url": "/accounts/{{account_id}}/crm_auth/{{crm_auth_id}}",
+        "auth_required": true
+    },
+    "delete_crm_auth": {
+        "method": "DELETE",
+        "url": "/accounts/{{account_id}}/crm_auth/{{crm_auth_id}}",
+        "auth_required": true
+    }
+}
