@@ -1,0 +1,12 @@
+{
+    "get_rate_for_number_from_ratedeck": {
+        "method": "GET",
+        "url": "/rates/number/{{number}}?ratedeck_id={{ratedeck}}",
+        "auth_required": true
+    },
+    "get_account_rate_for_number": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/rates/number/{{number}}",
+        "auth_required": true
+    }
+}
